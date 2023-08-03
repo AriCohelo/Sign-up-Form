@@ -8,26 +8,48 @@
 </head>
 
 <body>
-    <form action="" method="post">
-        <fieldset id="fieldsetName">
-            <label for="firstName">First Name</label>
-            <input type="text" id="firstName" name="firstName" placeholder="Jose...">
-            <label for="lastName">Last Name</label>
-            <input type="text" id="lastName" name="lastName" placeholder="Pérez">
-        </fieldset>
-        <fieldset>
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" placeholder="joseperez@josemail.com">
-            <label for="phoneNumber">Phone Number</label>
-            <input type="tel" id="phoneNumber" name="phoneNumber" placeholder="12345678">
-        </fieldset>
-        <fieldset>
-            <label for="password">Password</label>
-            <input type="password" id="password" name="password">
-            <label for="confirmPassword"> Confirm Password</label>
-            <input type="confirmPassword" id="confirmPassword" name="confirmPassword">
-        </fieldset>
-    </form>
+    <img class="background" src="tech back mob.jpeg" alt="tech back">
+    <div class="container">
+        <div class="header">
+            aca dicen cosas
+        </div>
+        <form id="form" action="" method="post">
+            <fieldset id="fieldsetName">
+                <div>
+                    <label class="labels" for="firstName">First Name</label>
+                    <input class="inputBoxes" type="text" id="firstName" name="firstName" placeholder="Jose...">
+                </div>
+                <div>
+                    <label class="labels" for="lastName">Last Name</label>
+                    <input class="inputBoxes" type="text" id="lastName" name="lastName" placeholder="Pérez">
+                </div>
+            </fieldset>
+            <fieldset id="fieldsetContact">
+                <div>
+                    <label class="labels" for="email">Email</label>
+                    <input class="inputBoxes" type="email" id="email" name="email" placeholder="joseperez@josemail.com">
+                </div>
+                <div>
+                    <label class="labels" for="phoneNumber">Phone Number</label>
+                    <input class="inputBoxes" type="tel" id="phoneNumber" name="phoneNumber" placeholder="12345678">
+                </div>
+            </fieldset>
+            <fieldset id="fieldsetPassword">
+                <div>
+                    <label class="labels" for="password">Password</label>
+                    <input class="inputBoxes" type="password" id="password" name="password">
+                </div>
+                <div>
+                    <label class="labels" for="confirmPassword"> Confirm Password</label>
+                    <input class="inputBoxes" type="confirmPassword" id="confirmPassword" name="confirmPassword   ">
+                </div>
+            </fieldset>
+        </form>
+        <div class="footer">
+            <input type="submit" name="submit" id="submit">
+            <div>y aca dicen otras <a href="">no?</a> </div>
+        </div>
+    </div>
     <script src="code.js"></script>
 </body>
 
